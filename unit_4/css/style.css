@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #201828;
+	font-size: 1em;
+	text-align: center;
+	position: relative;
+}
+
+header{
+	padding:0 200px;
+}
+
+nav{
+	margin:auto;
+}
+
+main{
+	background-color: #F1E9E4;
+	color:#3C3C3C;
+	padding:100px 0;
+}
+
+section{
+	padding:50px 0;
+}
+
+footer{
+	color: #F1E9E4;
+	padding:50px 0;
+}
+
+h1{
+	font-family: 'Bowlby One SC', cursive;
+	font-weight: normal;
+	font-size:60px;
+	text-align:center;
+	color:#F1E9E4;
+	margin:200px 0 0;
+}
+
+h2,
+h3,
+h4{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h2{
+	font-size:3em;
+}
+
+h3{
+	color: #F1E9E4;
+	font-size:2.25em;
+}
+
+
+hr{
+	border:none;
+	height:3px;
+	background-color: #3C3C3C;
+	width:2em;
+	margin:1em auto;
+}
+
+p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:1em;
+	line-height: 1.5em;
+}
+
+a{
+	text-decoration:none;
+	color:#000;
+	border-bottom: 1px solid #000;
+	padding-bottom:2px;
+}
+
+img{
+	width:100%;
+}
+
+.catlinks{
+	color: #F1E9E4;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration:none;
+	padding-top: 20px;
+	margin: 100px;
+}
+
+.navlinks{
+	font-family: 'Ubuntu', sans-serif;
+	color: #201828;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding:20px;
+    margin: 0 20px;
+    border:none;
+    background-color: #F1E9E4;
+}
+
+#navbar{
+	background: url(images/you-are-here.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:750px;
+	padding:20px 0;
+}
+
+.uniquecolor{
+	color: #F1E9E4;
+}
+
+#stalkme{
+	background-color:#F1E9E4;
+}
+
+#stalknav {
+	background-color: #F1E9E4;
+}
+
+.smlinks{
+	color: #201828;
+	text-decoration:none;
+	font-family: 'Ubuntu', sans-serif;
+	padding-top: 20px;
+	margin: 100px;
+}
