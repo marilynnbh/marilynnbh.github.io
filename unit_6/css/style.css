@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	background-color: #201828;
+	font-size: 16px;
+	position: relative;
+}
+
+header{
+	padding:0 200px;
+}
+
+nav{
+	text-align: center;
+	float: right;
+}
+
+/*LoVe HAte*/
+
+nav a:link{
+	font-family: 'Ubuntu', sans-serif;
+	color:#fff;
+	margin:0 32px;
+	padding-bottom:5px;
+	font-size: .8em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+nav a:visited{
+	color: #fff;
+}
+
+nav a:hover{
+	border-bottom: 1px solid #fff;
+}
+
+nav a:active{
+	color:#fff;
+}
+
+main{
+	background-color: #F1E9E4;
+	color:#3C3C3C;
+	padding:50px 0;
+}
+
+section{
+	padding:50px 0;
+}
+
+footer{
+	background-color: #F1E9E4;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color:#201828;
+	padding:30px 0;
+}
+
+h1{
+	font-family: 'Bowlby One SC', cursive;
+	font-weight: normal;
+	font-size: 65px;
+	text-align: center;
+	color: #fff;
+	margin: 250px 0 0;
+}
+
+h2,
+h3,
+h4{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+h2{
+	font-size:.8em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+h3 a {
+	font-size:.8em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+h3{
+	font-size:2em;
+	margin:1em;
+}
+
+h3 + p {
+	text-align: center;
+	line-height: 1.6em;
+	color: white;
+	text-align: center;
+	padding-right: 400px;
+	padding-left: 400px;
+	margin-bottom: 50px;
+}
+
+header h3 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: white;
+	margin: 0;
+}
+
+h4{
+	font-size:3em;
+	text-align:center;
+}
+
+p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:1em;
+	line-height: 1.6em;
+	text-align: center;
+}
+
+a{
+	text-decoration:none;
+	color: #201828;
+}
+
+img{
+	width:100%;
+}
+
+/*LoVe HAte*/
+
+.stalkme + div {
+	align-content: center;
+}
+
+div a:link{
+	font-family: 'Ubuntu', sans-serif;
+	color:#fff;
+	margin: 120px;
+	padding-bottom:5px;
+	font-size: .8em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+div a:visited{
+	color: #fff;
+}
+
+div a:hover{
+	border-bottom: none;
+}
+
+div a:active{
+	color:#fff;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:"hello";
+	display: block;
+	clear:both;
+}
+
+.wrapper{
+	width: 80%;
+    margin: auto;
+}
+
+.cats{
+	width:38%;
+	margin:5%;
+	float:left;
+}
+
+.cats img{
+	max-width: 500px;
+	display: block;
+	margin:auto;
+}
+
+.cats h2 {
+	padding-top: 20px;
+}
+
+#lander{
+	background:url(../images/main-blank.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:980px;
+	padding:20px 0;
+}
