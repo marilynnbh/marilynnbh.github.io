@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	background-color: #201828;
+	font-size: 1em;
+	position: relative;
+}
+
+header{
+	padding:0 12%;
+}
+
+nav{
+	text-align: center;
+	float: right;
+}
+
+nav a:link{
+	font-family: 'Ubuntu', sans-serif;
+	color:#fff;
+	margin:0 2em;
+	font-size: .8em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+main{
+	background-color: #F1E9E4;
+	color:#3C3C3C;
+	padding:2.5em 0;
+}
+
+section{
+	padding:2.5em 0;
+}
+
+footer{
+	background-color: #F1E9E4;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color:#201828;
+	padding:2em 0;
+}
+
+h1{
+	font-family: 'Bowlby One SC', cursive;
+	font-weight: normal;
+	font-size: 4.2em;
+	text-align: center;
+	color: #fff;
+	margin: 20% 0 0;
+}
+
+h2,
+h3,
+h4{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+h2{
+	font-size:.8em;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+}
+
+h3 a {
+	font-size:.8em;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+}
+
+h3{
+	font-size:2em;
+	margin:1em;
+}
+
+h3 + p {
+	text-align: center;
+	line-height: 1.6em;
+	color: white;
+	text-align: center;
+	padding-right: 20%;
+	padding-left: 20%;
+	margin-bottom: 3%;
+}
+
+header h3 {
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	color: white;
+	margin: 0;
+}
+
+h4{
+	font-size:3em;
+	text-align:center;
+}
+
+p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:1em;
+	line-height: 1.6em;
+	text-align: center;
+}
+
+a{
+	text-decoration:none;
+	color: #201828;
+}
+
+img{
+	width:100%;
+}
+
+div a{
+	font-family: 'Ubuntu', sans-serif;
+	color:#fff;
+	margin: 7%;
+	padding-bottom:.2em;
+	font-size: .8em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+}
+
+#stalknav ~ div{
+	width: 100%;
+	align-content: center;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:"hello";
+	display: block;
+	clear:both;
+}
+
+.wrapper{
+	width: 80%;
+    margin: auto;
+}
+
+.cats{
+	width:38%;
+	margin:5%;
+	float:left;
+}
+
+.cats img{
+	max-width: 500px;
+	display: block;
+	margin:auto;
+}
+
+.cats h2 {
+	padding-top: 20px;
+}
+
+#lander{
+	background:url(../images/main-blank.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:900px;
+	padding:1% 0;
+}
+
+
+@media screen and (max-width:1454px){
+	div a{
+	margin: 6.7%;
+	}
+}
+
+@media screen and (max-width:1322px){
+	div a{
+	margin: 6.3%;
+	}
+	main {
+		padding:1em;
+	}
+	h1 {
+	font-size: 3.8em;
+	}
+	h3 {
+	font-size:1.5em;
+	}
+}
+
+@media screen and (max-width:1176px){
+	div a{
+	margin: 6%;
+	}
+	main {
+		padding:1em;
+	}
+	h1 {
+	font-size: 3.8em;
+	margin-top: 40%;
+	}
+	h3 {
+	font-size:2em;
+	}
+	h2 {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width:1090px){
+	div a{
+	margin: 5.7%;
+	}
+	main {
+		padding:1em;
+	}
+	h1 {
+	font-size: 3.8em;
+	margin-top: 40%;
+	}
+	h3 {
+	font-size:2em;
+	}
+	h2 {
+		font-size: 1em;
+	}
+	footer {
+		padding: 1em 0;
+	}
+	.wrapper {
+    width: 100%;
+	}
+	#lander {
+		height: 800px;
+	}
+}
+
+@media screen and (max-width:1014px){
+	div a{
+	margin: 5.5%;
+	padding-bottom: 2%;
+	}
+	main {
+		padding:1em;
+	}
+	h1 {
+	font-size: 3.8em;
+	margin-top: 40%;
+	}
+	h3 {
+	font-size:2em;
+	}
+	h2 {
+		font-size: 1em;
+	}
+	footer {
+		padding: 1em 0;
+	}
+	.wrapper {
+    width: 100%;
+	}
+	#lander {
+		height: 800px;
+	}
+	.cats {
+    width: 45%;
+    margin: 2.5%;
+    float: left;
+	}
+	section {
+     padding: 2em 0; 
+	}
+}
+
+@media screen and (max-width:969px){
+	div a{
+	margin: 5.3%;
+	font-size: .8em;
+	}
+	main {
+		padding:1em;
+	}
+	h1 {
+	font-size: 3em;
+	margin-top: 40%;
+	}
+	h3 {
+	font-size:1.5em;
+	}
+
+
+@media screen and (max-width:928px){
+	div a{
+		margin: 5%;
+	}
+	h3 + p {
+		padding-right: 10%;
+    	padding-left: 10%;
+	}
+}
+
+@media screen and (max-width:872px){
+	div a{
+		margin: 4.5%;
+	}
+}
+
+
+@media screen and (max-width:793px){
+	div a{
+		margin: 4%;
+	}
+	.cats {
+    width: 100%;
+    margin: 0;
+    float: none;
+    display: block;
+	}
+	h1 {
+	font-size: 3em;
+	margin-top: 45%;
+	}
+}
+
+@media screen and (max-width:727px){
+	div a{
+		margin: 4%;
+		font-size: .7em;
+	}
+
+	h1 {
+	margin-top: 50%;
+	}
+}
